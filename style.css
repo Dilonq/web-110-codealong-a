@@ -1,0 +1,80 @@
+:root{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    --background-color:#aaccdd;
+    --background-accent-color:#ffbbcc;
+    --text-color:black;
+    --text-accent-color:rgb(192, 61, 61);
+}
+
+body {
+    color:black;
+}
+
+a {
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0.4rem;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--text-accent-color);
+    background-color: #dddddd;
+    /* color: white; */
+}
+
+header h1 {
+    font-size: 3.6rem;
+    font-weight: bolder;
+    letter-spacing: -0.2rem;
+    margin: 0;
+    padding: 1rem 0rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-color: blanchedalmond;
+    color:black;
+    padding: 0.1rem 1rem;
+    border-radius: 1rem;
+}
+
+nav {
+    background-color:var(--background-color);
+    /* background-color: floralwhite; */
+    padding: 1rem;
+    /* margin: 0rem 8rem 0rem 0rem; */
+    border-radius: 1rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main {
+    background-color: cadetblue;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+aside {
+    width: 8rem;
+    background-color: brown;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+footer {
+    background-color:gray;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bolder;
+}
