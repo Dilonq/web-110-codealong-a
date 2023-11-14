@@ -1,3 +1,0 @@
-# web-110-codealong-a
-
-wfhuihwufhwiufhuiwhfuiawhfiuawhifaluh ewhfehf ohweoifjoiajofijwaio fjipj;wjefjwopJWKOEJF

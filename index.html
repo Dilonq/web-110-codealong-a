@@ -5,40 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Template</title>
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        function func(){
+            let menu = document.getElementById("menu");
+
+            if (menu.style.display == "none"){
+                menu.style.display = "flex";
+            }else{
+                menu.style.display = "none";
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
         <h1>blog template</h1>
+        <!-- <p id="time">beer</p> -->
+        <button onclick="func()">☰</button>
     </header>
 
-    <nav>
-        <a href="">link 1</a>
-        <a href="">link 2</a>
-        <a href="">link 3</a>
-        <a href="">link 4</a>
+    <nav id="menu">
+        <a href="" class="navlink">link 1</a>
+        <a href="" class="navlink">link 2</a>
+        <a href="" class="navlink">link 3</a>
+        <a href="" class="navlink">link 4</a>
     </nav>
 
     <div class="content">
         <main>
-            <!-- <article> -->
+            <article>
                 <h1>blog post 1</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste recusandae voluptatum harum, corrupti facilis quo. Praesentium aliquid veritatis beatae? Vel magnam quis deserunt ducimus qui recusandae sit sapiente. Explicabo, accusantium.</p>
                 <span>01.01.2000</span>
-            <!-- </article> -->
-            <!-- <article> -->
+            </article>
+            <article>
                 <h1>blog post 2</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste recusandae voluptatum harum, corrupti facilis quo. Praesentium aliquid veritatis beatae? Vel magnam quis deserunt ducimus qui recusandae sit sapiente. Explicabo, accusantium.</p>
                 <span>01.01.2000</span>
-            <!-- </article> -->
-            <!-- <article> -->
+            </article>
+            <article>
                 <h1>blog post 3</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste recusandae voluptatum harum, corrupti facilis quo. Praesentium aliquid veritatis beatae? Vel magnam quis deserunt ducimus qui recusandae sit sapiente. Explicabo, accusantium.</p>
                 <span>01.01.2000</span>
-            <!-- </article> -->
+            </article>
         </main>
 
         <aside>
             <h1>side bar</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste recusandae voluptatum harum, corrupti facilis quo. Praesentium aliquid veritatis beatae? Vel magnam quis deserunt ducimus qui recusandae sit sapiente. Explicabo, accusantium.</p>
         </aside>
     </div>
 
